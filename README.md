@@ -41,9 +41,11 @@
     //Deleta uma branch com o nome passado no terminal git
     Tem que estar em outra branch para excluir a branch atual. Para sair da branch, usar git checkout
 
-- git merge
-    //
+- git merge [nome da branch que você deseja trazer as alterações]
+    //Utilizado para mesclar alterações feitas em duas branchs
+
 - git push
+    //
 - git pull
 
 
