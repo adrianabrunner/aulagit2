@@ -44,9 +44,18 @@
 - git merge [nome da branch que você deseja trazer as alterações]
     //Utilizado para mesclar alterações feitas em duas branchs
 
-- git push
-    //
-- git pull
+- git push [nome da variavel do repositorio local] [nome da branch]
+    //Utilizado para enviar as modificações de uma branch local a uma branch do repositorio remoto
+    ex: git push origin master
+
+- git push --set-upstream [nome da variavel do repositorio local] [nome da branch]
+    //Utilizado para explicitar que queremos fazer push para uma branch especifica.
+
+- git pull [nome da variavel do repositorio local] [nome da branch]
+    //Utilizado para enviar as modificações de uma branch do repositorio remoto a uma branch local
+    ex: git push origin master
+
+
 
 
 
