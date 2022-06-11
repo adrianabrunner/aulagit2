@@ -54,10 +54,3 @@
 - git pull [nome da variavel do repositorio local] [nome da branch]
     //Utilizado para enviar as modificações de uma branch do repositorio remoto a uma branch local
     ex: git push origin master
-
-
-
-
-
-
-- git merge
